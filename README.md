@@ -1,11 +1,11 @@
 # FlowMCP
 
-FlowMCP — локальний сервіс для роботи з Google Flow через AI-агентів, зокрема Codex.
+FlowMCP is a local service for interacting with Google Flow through AI agents, including Codex.
 
-Запланований функціонал:
+Planned functionality:
 
-- Підключення AI-агентів через MCP поверх HTTPS.
-- Генерація відео в Google Flow за текстовими запитами.
-- Автоматизація роботи з Google Flow у браузері.
-- Використання збереженої Google-сесії після ручного входу в акаунт.
-- Відстеження стану генерації та отримання готових відео.
+- Connect AI agents through MCP over HTTPS.
+- Generate videos in Google Flow from text prompts.
+- Automate Google Flow in the browser.
+- Reuse a saved Google session after manual sign-in.
+- Track generation progress and retrieve completed videos.
