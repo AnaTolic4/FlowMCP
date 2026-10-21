@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ModelContextProtocol.AspNetCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../FlowMCP.Core/FlowMCP.Core.csproj" />
+    <ProjectReference Include="../FlowMCP.Automation/FlowMCP.Automation.csproj" />
+    <ProjectReference Include="../FlowMCP.Infrastructure/FlowMCP.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
